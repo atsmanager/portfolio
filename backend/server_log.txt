@@ -1,0 +1,60 @@
+[dotenv@17.3.1] injecting env (7) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+Server running on port 5000
+MongoDB Connected: 127.0.0.1
+Updating Profile with data: {
+  "heroResumeLabel": "DOWNLOAD CV",
+  "heroGithubLabel": "GITHUB",
+  "heroLinkedinLabel": "LINKEDIN",
+  "primaryColor": "#24eb45",
+  "secondaryColor": "#4f46e5",
+  "_id": "69b91711144267f75ce05a7c",
+  "name": "ASHWANI KUMAR",
+  "title": "MERN Stack Developer",
+  "heroSubtitle": "Passionate about building modern web applications with MongoDB, Express.js, React, and Node.js.",
+  "aboutTitle": "About Me",
+  "aboutDescription": "I'm a passionate MERN stack developer...",
+  "phone": "+91 7670888165",
+  "address": "Hyderabad, India",
+  "logoText": "Portfolio",
+  "footerText": "Made with React, Vite, and Material UI",
+  "skillsTitle": "Skills & Technologies",
+  "skillsSubtitle1": "Technical Proficiency",
+  "skillsSubtitle2": "Technologies I Work With",
+  "projectsTitle": "Recent Projects",
+  "contactMainTitle": "Get In Touch",
+  "contactSectionTitle": "Contact Information",
+  "contactFormTitle": "Send me a Message",
+  "createdAt": "2026-03-17T08:55:45.630Z",
+  "updatedAt": "2026-03-17T11:11:00.164Z",
+  "__v": 0,
+  "profileImage": "http://localhost:5000/uploads/file-1773742998698.jpg",
+  "resumeUrl": "http://localhost:5000/uploads/file-1773743005615.pdf",
+  "githubUrl": "DSZNDJFM.COM",
+  "linkedinUrl": "AGJGSHB.COM",
+  "aboutCards": [
+    {
+      "_id": "69b94a1005836e4fa8b40462",
+      "icon": "Code",
+      "title": "Web Development",
+      "desc": "Passionate about creating responsive applications."
+    },
+    {
+      "_id": "69b94a1005836e4fa8b40463",
+      "icon": "School",
+      "title": "Continuous Learning",
+      "desc": "Always eager to learn new technologies."
+    },
+    {
+      "_id": "69b94a1005836e4fa8b40464",
+      "icon": "Psychology",
+      "title": "Problem Solving",
+      "desc": "Enjoy tackling complex challenges."
+    }
+  ]
+}
+(node:13696) [MONGOOSE] Warning: mongoose: the `new` option for `findOneAndUpdate()` and `findOneAndReplace()` is deprecated. Use `returnDocument: 'after'` instead.
+(Use `node --trace-warnings ...` to show where the warning was created)
