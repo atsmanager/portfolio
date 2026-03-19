@@ -32,8 +32,7 @@ if (!fs.existsSync(uploadDir)) {
 
 // CORS configuration (local + production)
 const allowedOrigins = [
-  "http://localhost:5173",
-  "https://assignment2-frontend-0i3j.onrender.com"
+  process.env.CLIENT_URL
 ];
 
 app.use(cors({
@@ -73,7 +72,7 @@ app.get("/", (req, res) => {
 });
 
 // PORT for Render
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on port ${PORT}`);
